@@ -112,7 +112,7 @@
 
                 <ScrollViewer Drop="DropFileToWindow" Grid.Column="1" Grid.Row="1" Background="#FFF1F1F1">
                     <StackPanel>
-                        <TextBlock Text="Fotos" Margin="10" FontSize="22" FontWeight="Medium" Foreground="#FF131313"/>
+                        <TextBlock Text="Escohidas" Margin="10" FontSize="22" FontWeight="Medium" Foreground="#FF131313"/>
                         <StackPanel Margin="10 0">
                             <ItemsControl x:Name="TargetGallery" ItemsSource="{Binding gal}">
                                 <ItemsControl.ItemTemplate>
